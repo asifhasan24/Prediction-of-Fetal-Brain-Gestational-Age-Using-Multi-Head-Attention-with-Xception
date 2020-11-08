@@ -13,22 +13,24 @@ import './TshirtTextDrag.css'
 
 const TshirtTextDrag = ({ children }) => {
 
-    let leftPx=150
+    let leftPx=155
 
-
+ 
 
 const left= ()=>{
     const pic = document.getElementById("pic")
+    leftPx=leftPx-10;
 pic.style.left=`${leftPx}px`
-leftPx=leftPx-10;
+
 }
 
 
 const right=()=>{
     
     const pic = document.getElementById("pic")
-    pic.style.left=`${leftPx+20}px`
     leftPx=leftPx+10;
+    pic.style.left=`${leftPx}px`
+ 
 
 }
     
