@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import FileUploadWithPreview from "file-upload-with-preview";
 import "file-upload-with-preview/dist/file-upload-with-preview.min.css";
 import './ImagePreview.css'
-
+import Button from 'react-bootstrap/Button'
 
 const ImagePreview = () => {
    
@@ -13,7 +13,7 @@ const ImagePreview = () => {
   return (
         <div>
             <div className="custom-file-container" data-upload-id="myUniqueUploadId">
-                <label
+                <label  
                 >Upload File
         <a
                         href="javascript:void(0)"
@@ -24,20 +24,20 @@ const ImagePreview = () => {
 
                 </label
                 >
-                <label class="custom-file-container__custom-file">
+                <label class="custom-file-container__custom-file ">
                     <input 
                         type="file"
-                        class="custom-file-container__custom-file__custom-file-input"
+                        class="custom-file-container__custom-file__custom-file-input "
                         accept="*"
                         multiple
                         aria-label="Choose File"
                     />
                     <input type="hidden" name="MAX_FILE_SIZE" value="10485760" />
-                    <span
+                    <span  
                         class="custom-file-container__custom-file__custom-file-control"
                     ></span>
                 </label>
-                <div class="custom-file-container__image-preview"></div>
+                <div class="custom-file-container__image-preview "></div>
             </div>
         </div>
     );
