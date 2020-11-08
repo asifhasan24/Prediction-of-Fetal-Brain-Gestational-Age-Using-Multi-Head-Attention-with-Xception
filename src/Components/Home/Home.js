@@ -264,7 +264,7 @@ const Home = () => {
                     <div class="row">
                         <div class="col-lg-4 col-md-4 col-12">
                             <div class="box">
-                                <a href="#"><img src='https://ibb.co/bWw1QM5' class="img-fluid img-thumbnail" alt=""/></a>
+                                <a href="#"><img src='' alt=""/></a>
 
                                 <p class="m-4">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quas quisquam,
                                     odit
